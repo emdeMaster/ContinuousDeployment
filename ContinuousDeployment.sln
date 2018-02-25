@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuousDeployment", "ContinuousDeployment\ContinuousDeployment.csproj", "{BB6DB719-5E6D-4562-92C1-41CA35AE67A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContinuousDeployment", "ContinuousDeployment\ContinuousDeployment.csproj", "{BB6DB719-5E6D-4562-92C1-41CA35AE67A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3283512D-107C-45BF-8756-D4EE878F36ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuousWeb.Tests", "ContinuousWeb.Tests\ContinuousWeb.Tests.csproj", "{A07B0AFE-E3AB-489B-AA26-02129164C5CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{BB6DB719-5E6D-4562-92C1-41CA35AE67A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB6DB719-5E6D-4562-92C1-41CA35AE67A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB6DB719-5E6D-4562-92C1-41CA35AE67A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07B0AFE-E3AB-489B-AA26-02129164C5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07B0AFE-E3AB-489B-AA26-02129164C5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07B0AFE-E3AB-489B-AA26-02129164C5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07B0AFE-E3AB-489B-AA26-02129164C5CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A07B0AFE-E3AB-489B-AA26-02129164C5CF} = {3283512D-107C-45BF-8756-D4EE878F36ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D83E0704-C728-4B40-9768-ED7CE09B9AA7}
